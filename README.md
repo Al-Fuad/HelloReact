@@ -17,16 +17,23 @@ React is aptly named because: It reads quickly to changes without reloading the 
 
 React provides the tools and concept to define component based user interface. ReactDOM handles the task of rendering those.
 
-<h1><u>CDN Dev Link</u></h1>
+<h1><u>CDN Dev Link vs CDN Prod Link</u></h1>
 
-1. Uses during the development.
-2. Includes debugging tools, warings and error messages.
-3. Larger file & slow.
-4. Not optimized for production.
-
-<h1><u>CDN Prod Link</u></h1>
-
-1. Uses for deploying
-2. Excludes debugging tools, warings and error messages.
-3. Smaller file & fast.
-4. Optimized for production.
+<table>
+  <tr>
+    <th>CDN Dev Link</th>
+    <th>CDN Prod Link</th>
+  </tr>
+  <tr>
+    <td>Uses during the development.</td>
+    <td>Uses for deploying.</td>
+  </tr>
+  <tr>
+    <td>Larger file & slow.</td>
+    <td>Smaller file & fast.</td>
+  </tr>
+  <tr>
+    <td>Not optimized for production.</td>
+    <td>Optimized for production.</td>
+  </tr>
+</table>
