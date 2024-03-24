@@ -29,6 +29,10 @@ React provides the tools and concept to define component based user interface. R
     <td>Uses for deploying.</td>
   </tr>
   <tr>
+    <td>Includes debugging tools, warings and error messages.</td>
+    <td>Excludes debugging tools, warings and error messages.</td>
+  </tr>
+  <tr>
     <td>Larger file & slow.</td>
     <td>Smaller file & fast.</td>
   </tr>
